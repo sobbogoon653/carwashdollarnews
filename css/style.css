@@ -1,0 +1,65 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/* ------------------------------- Hedaer css ------------------------------- */
+#header{
+    background:#ffffff;
+
+    width:100%;
+    height:auto;
+    border-bottom: 10px solid #211DCC;
+}
+#header img{
+    width: 361px;
+    height: 131px;
+}
+/* ---------------------------- Main Content Css ---------------------------- */
+#main_content{
+    background:#dddddd;
+}
+#main_content .container{
+    background:#ffffff;
+}
+#main_content img{
+    width: 100%;
+    height:auto;
+    margin:30px 0;
+}
+.span_color{
+    color:#211DCC;
+}
+/* ---------------------------- side bar css left --------------------------- */
+.side_bar_single_div{
+    margin:50px 0;
+}
+.side_bar_single_div h2{
+    font-size: 22px;
+}
+/* ---------------------------- Right Content Css --------------------------- */
+.right_content_single_div{
+    margin:50px 0;
+}
+.right_content_single_div h2{
+    font-size: 32px;
+}
+/* ------------------------------- footer Css ------------------------------- */
+#footer{
+    background:#ffffff;
+    border-top: 10px solid #211DCC;
+    padding:28px 0;
+}
+#footer a{
+    color:#211DCC;
+    font-weight:700;
+}
+
+
+/* ----------------------------- Responsive CSS ----------------------------- */
+@media screen and (max-width: 767px) {
+   .main_wrapper{
+       display:flex !important;
+       flex-direction:column-reverse !important;
+      }
+  }
